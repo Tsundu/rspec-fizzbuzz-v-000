@@ -1,2 +1,12 @@
 # Don't forget! This file needs to be 'required' in its spec file
 # See README.md for instructions on how to do this
+def fizzbuzz(num)
+  
+  if (num % 3) && (num % 5)
+    fizzbuzz 
+  elsif num % 3
+    fizz
+  elsif num % 5
+    buzz 
+  
+end
