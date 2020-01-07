@@ -7,9 +7,9 @@ def fizzbuzz(num)
   if (num % 3) && (num % 5)
     puts "fizzbuzz" 
   elsif num % 3
-    puts "Fizz"
+    return "Fizz"
   elsif num % 5
-    puts "Buzz" 
+    return "Buzz" 
   else 
     return  nil
   end
