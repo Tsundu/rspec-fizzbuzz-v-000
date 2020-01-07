@@ -7,9 +7,11 @@ def fizzbuzz(num)
   if (num % 3) && (num % 5)
     fizzbuzz 
   elsif num % 3
-    fizz
+    Fizz
   elsif num % 5
-    buzz 
+    Buzz 
+  else 
+    nil
   end
   
 end
