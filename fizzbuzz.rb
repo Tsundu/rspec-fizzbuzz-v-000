@@ -9,3 +9,5 @@ def fizzbuzz(num)
   elsif num % 5
     buzz 
   end
+  
+end
